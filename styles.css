@@ -143,6 +143,16 @@ a:hover {
 
 }
 
+h1:hover {
+    background-color: yellow;
+    color: blue;
+    text-shadow: none;
+
+}
+
+
+
+
 
 .music-album {
     height: 80%;
@@ -271,9 +281,11 @@ a:hover {
     display: flex;
     justify-content: space-around;
 }
-    
 
-
+#youtube {
+    height: 1120px;
+    width: 630px;
+}
 
 }
 
@@ -291,8 +303,6 @@ a:hover {
         width: 30%;
         height: 30%;
     }
-    
-
 
 
 
