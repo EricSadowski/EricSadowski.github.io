@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+}
+
+
+h1 {
+    font-size: 34px;
+    color: black
+    text-shadow: 2px 2px black;
+    padding: 25px;
+}
+
+
+
+h2 {
+    font-size: 30px;
+    color: blue;
+    text-shadow: 2px 2px black;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: blue;
+
+    
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #111;
+    text-align: center;
+
+    
+}
+
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid rgb(231, 222, 222);
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    z-index:2;
+}
+
+.logo {
+    height: 80px;
+    float: left;
+    
+      
+}
+
+nav {
+    float: right;
+    line-height: 69px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 24px 10px;
+    color: blue;
+    text-shadow: 3px 3px #000000;
+
+}
+
+
+.wrapper {
+    width: 100%;
+}
+
+.selfie {
+    margin-top: 5px;
+    width: 70%;
+    height: 70%;
+    
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.welcome-info {
+    width: 100%;
+}
+
+.welcome-info h2 {
+    padding: 1.89rem 1.89rem 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+
+    text-align: center;
+    
+}
+
+.welcome-info p {
+    padding: 0px 1.89rem 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #111;
+    text-align: center;
+    line-height: 24px;
+    
+}
+
+
+#music-link {
+    height: 20px;
+}
+
+#video-link{
+    height: 25px;
+}
+
+#bands-link{
+    height: 25px;
+}
+
+#link-music {
+    cursor: url(img/sound-cursor.png), auto;
+}
+
+#link-video {
+    cursor: url(img/camera-cursor.png), auto;
+}
+
+#link-bands {
+    cursor: url(img/rock-hand.png), auto;
+}
+#link-goblin {
+    cursor: url(img/axe-cursor.png), auto;
+}
+
+a:hover {
+    background-color: yellow;
+    color: blue;
+    text-shadow: none;
+
+}
+
+
+.music-album {
+    height: 80%;
+    width: 80%;
+}
+
+.music-title {
+    padding: 15px;
+}
+
+.goblin-website {
+    padding: 50px;
+}
+
+.goblin-face {
+    width: 90%;
+    height: 90%;
+}
+
+.sl-photo {
+    height: 90%;
+    width: 90%;
+}
+
+.orb-photo {
+    height: 90%;
+    width: 90%;
+}
+
+.show-photo {
+    height: 50%;
+    width: 50%;
+}
+
+.music-production {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.music-production h3 {
+ color: black;
+}
+
+.video-production {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.video-production h3 {
+    color: black;
+    padding: 10px;
+   }
+
+.bands {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bands h3 {
+    padding: 20px;
+}
+
+.music-card h5 {
+    padding: 10px;
+}
+
+
+
+@media only screen and (min-width: 420px){
+
+
+}
+
+
+
+
+@media only screen and (min-width: 600px){
+
+
+
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    header {
+        display: none;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .selfie {
+        width: 50%;
+        height: 50%;
+        margin-top: 60px;
+    }
+
+    .wrapper {
+       
+        margin: 0 auto;
+    }
+
+.music-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.music-album {
+    width: 97%;
+    height: 97%;
+}
+
+.goblin-face {
+    width: 40%;
+    height: 40%;
+}
+.show-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    body p {
+        font-size: 18px;
+     }
+
+    .wrapper {
+   
+    }
+    
+    .selfie {
+        width: 30%;
+        height: 30%;
+    }
+
+
+
+   
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+
+
+}
