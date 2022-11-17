@@ -219,6 +219,19 @@ h1:hover {
     padding: 10px;
 }
 
+.glowing-orb h3 {
+color: black;
+text-decoration: none;
+}
+
+.split-layer h3 {
+    color: black;
+    text-decoration: none;
+    }
+.goblin-website h3 {
+        color: black;
+        text-decoration: none;
+        }
 
 
 @media only screen and (min-width: 420px){
